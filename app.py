@@ -17,7 +17,7 @@ st.write(
 model = ChatOllama(model="llama3.2:1b", base_url="http://localhost:11434/")
 
 system_message = SystemMessagePromptTemplate.from_template(
-    "You are a helpful AI Assistant. You should help users with their queries and response must be long and efficient.")
+    "You are a helpful AI Assistant. You should help users with their queries and response must be short and efficient.")
 
 if "chat_history" not in st.session_state:
     st.session_state['chat_history'] = []
