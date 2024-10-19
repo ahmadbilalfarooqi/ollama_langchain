@@ -11,7 +11,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 st.title(":brain: Make Your Own History Enabled Chat Application with Ollama and Langchain!!!")
 st.write(
-    "Source Code Available Here: [GitHub](https://github.com/ahmadbilalfarooqi?tab=repositories) | [LinkedIn](https://www.linkedin.com/in/ahmadbilalfarooqi/) | [Ahmad Bilal](https://portfolio-ahmadbilal.vercel.app/)")
+    "Source Code Available Here: [GitHub](https://github.com/ahmadbilalfarooqi/ollama_langchain) | [LinkedIn](https://www.linkedin.com/in/ahmadbilalfarooqi/) | [Ahmad Bilal](https://portfolio-ahmadbilal.vercel.app/)")
 
 # Change base_url to "https://api.openai.com" for OpenAI API
 model = ChatOllama(model="llama3.2:1b", base_url="http://localhost:11434/")
